@@ -16,4 +16,7 @@ public class Perro extends Animal {
         System.out.println(this.getNombre()+" dice GUAU");
     }
 
+    public void peso(double p){
+        System.out.println("El peso del perro es: "+p);
+    }
 }
